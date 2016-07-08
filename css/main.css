@@ -1,0 +1,9 @@
+
+#skillsBox div {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
