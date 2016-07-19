@@ -19,14 +19,64 @@
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
         <ul class="menuContent">
-          <li><a href="/#/about">About</a></li>
-          <li><a href="/#/">Projects</a></li>
-          <li><a href="/#/contact">Contact</a></li>
+          <li id="aboutBtn"><a href="/#/about">About</a></li>
+          <li id="projectsBtn"><a href="/#/">Projects</a></li>
         </ul>
       </div>
     </header>
+    
+    <hr/>
+    
     <div class="container">
       <div ui-view></div>
     </div>
+    
+    <hr id="footerLine"/>
+    
+    <footer>
+      <div id="footerColOne">
+        <ul class="contact">
+          <li>
+            Welcome to my website!
+          </li>
+          <li>
+            <a href="mailto:knbuffum@gmail.com">
+              <i class="fa fa-envelope-o" aria-hidden="true">
+                knbuffum@gmail.com
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <div id="footerColTwo">
+        <ul class="contact">
+          <li>
+            <a href="https://github.com/k-buffum">
+              <i class="fa fa-github" aria-hidden="true">
+                k-buffum
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/katlynbuffum">
+              <i class="fa fa-linkedin" aria-hidden="true">
+                katlynbuffum
+              </i>    
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="footerColThree">
+        <ul class="contact">
+          <li>
+            If you want to get in touch feel free to send me an email or connect with me on LinkedIn.
+          </li>
+        </ul>
+      </div>
+
+
+    </footer>
   </body>
 </html>

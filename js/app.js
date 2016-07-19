@@ -17,12 +17,6 @@ angular.module('Portfolio', ['ui.router'])
         url: '/about',
         templateUrl: 'views/about.html'
       }
-    )
-
-    .state('contact', {
-        url: '/contact',
-        templateUrl: 'views/contact.html'
-      }
     );
   }
 ]);
