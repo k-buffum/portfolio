@@ -97,19 +97,23 @@ PAGE: ABOUT
 }
 
 .experiencedSkill {
-  background-color: #4C6C9D;
+  background-color: #F8C5D0;
 }
 
 .familiarSkill {
-  background-color: #709CC1;
+  background-color: #FFDDCB;
+}
+
+.lastSkillItem {
+  margin-bottom: 50px;
 }
 
 .learningSkill {
-  background-color: #6E7376;
+  background-color: #cdd4d8;
 }
 
 .proficientSkill {
-  background-color: #99CED4;
+  background-color: #D2F3C1;
 }
 
 .resume {
@@ -120,17 +124,11 @@ PAGE: ABOUT
   text-decoration: underline;
 }
 
-.skill, .skillCompetency, .skillWithIcon i {
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
-}
-
-.skill, .skillWithIcon i {
-  background-color: #EEB4C0;
-  border-left: 5px solid black;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  padding: 5px;
+.skill {
+  background-color: #B2E0D3;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px 0 10px 10px;
 }
 
 #skillBoxHeading {
@@ -139,10 +137,8 @@ PAGE: ABOUT
 }
 
 .skillCompetency {
-  border-right: 5px solid black;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 5px;
+  color: black;
+  padding: 10px;
 }
 
 .skillsContainer {
@@ -150,7 +146,7 @@ PAGE: ABOUT
 }
 
 .skillSet li {
-  margin: 30px 0;
+  margin-top: 50px;
 }
 
 #summarySection {
