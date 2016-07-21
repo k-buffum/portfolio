@@ -91,7 +91,7 @@ PAGE: ABOUT
 
 #aboutSummary {
   font-size: 66px;
-  line-height: 1.8em;
+  line-height: 1.6em;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -180,6 +180,44 @@ ul.skillSet {
 /****************************
 PAGE: PROJECTS
 ****************************/
+
+.back {
+  text-align: center;
+}
+
+.projectDescription {
+  margin: 30px;
+}
+
+.front, .front img {
+  width: 100%;
+}
+
+.devicon-bootstrap-plain.colored, .projectLinks a {
+  color: black;
+}
+
+.jobRole, .projectLinks, .projectTitle, .technologies {
+  margin-top: 20px;
+}
+
+.jobRole, .projectTitle, .technologies {
+  margin-bottom: 20px;
+}
+
+.projectLinks i, .technologies i {
+  margin-right: 40px;
+}
+
+.projectTitle {
+  font-size: 50px;
+}
+
+.technologies {
+  display: inline;
+}
+
+
 
 /* hides back of pane when flipping */
 /*.back, .front {
